@@ -1,21 +1,18 @@
-# Tutorial Git and Github
-**Tutorial on Git and Github - English and Portuguese**
+# Tutorial Git and Github - English and Portuguese
 
-> Git configuration commands
-**Configuring my Git**
+# Git configuration commands
+
 ```
 git config --global user.name "Github Name"
 git config --global user.email "Github Email"
 ```
-> Comandos de configuracao do Git
-**Configurando meu Git**
+
 ```
 git config --global user.name "Nome do Github"
 git config --global user.email "Email do Github"
 ```
 
-
-**commands to push the files to the GitHub repository**
+# commands to push the files to the GitHub repository
 
 ```
 git init
@@ -26,8 +23,6 @@ git remote add origin "GitHub Repository Link"
 git push
 ```
 
-**comandos para enviar os arquivos para o repositorio GitHub**
-
 ```
 git init
 git add (Arquivo.exe ou --all)
@@ -37,29 +32,25 @@ git remote add origin "Link do Repositorio do GitHub"
 git push
 ```
 
-**Basic Commands Used**
+# Basic Commands Used
 
 ```
 git status
 git config --list
 ```
 
-**Comandos Basicos Usados**
-
 ```
 git status
 git config --list
 ```
 
-> Erros que aconteceram comigo e como os corrigi
-**Error: Repository Unsafe**
+# Mistakes that happened to me and how to fix them
+
+>Error: Repository Unsafe
 
 ```
 git config --global --add safe.directory D:/Repo/Tutorial-Git-and-Github
 ```
-
-> 
-**Erro: Repositorio inseguro**
 
 ```
 git config --global --add safe.directory D:/Repo/Tutorial-Git-and-Github
