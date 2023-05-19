@@ -1,5 +1,3 @@
-# Tutorial Git and Github - English and Portuguese
-
 # Git configuration commands
 
 ```
