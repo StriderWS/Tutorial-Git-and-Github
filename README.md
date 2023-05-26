@@ -47,11 +47,11 @@ git config --list
 >Error: Repository Unsafe
 
 ```
-git config --global --add safe.directory D:/Repo/Tutorial-Git-and-Github
+git config --global --add safe.directory "Directory Path"
 ```
 
 ```
-git config --global --add safe.directory D:/Repo/Tutorial-Git-and-Github
+git config --global --add safe.directory "Caminho do Diretorio"
 ```
 
 
