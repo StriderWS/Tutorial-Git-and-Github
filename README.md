@@ -44,15 +44,29 @@ git config --list
 
 # Mistakes that happened to me and how to fix them
 
->Error: Repository Unsafe
+>Error: Repository Unsafe (To set git settings that the directory is safe)
 
 ```
 git config --global --add safe.directory 'Directory Path'
 ```
+
+>Erro: Repositório não seguro (Para definir as configurações do git que o diretorio é seguro)
 
 ```
 git config --global --add safe.directory 'Caminho do Diretorio'
 ```
 
 
+
+>Error: remote origin already exists (To update the existing remote repository)
+
+```
+git remote set-url origin 'Directory Path'
+```
+
+>Erro: Já existe um repositório remoto (Para atualizar o repositório remoto existente)
+
+```
+git remote set-url origin 'Caminho do Diretorio'
+```
 
