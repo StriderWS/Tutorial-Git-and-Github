@@ -13,20 +13,16 @@ git config --global user.email "Email do Github"
 # commands to push the files to the GitHub repository
 
 ```
-git init
-git add (File.exe or --all)
-git branch -M main
+git clone
+git add (File.exe or [--all or .])
 git commit -m "Your Commit"
-git remote add origin "GitHub Repository Link"
 git push
 ```
 
 ```
-git init
-git add (Arquivo.exe ou --all)
-git branch -M main
+git clone
+git add (Arquivo.exe ou [--all ou .])
 git commit -m "Seu Commit"
-git remote add origin "Link do Repositorio do GitHub"
 git push
 ```
 
@@ -55,18 +51,3 @@ git config --global --add safe.directory 'Directory Path'
 ```
 git config --global --add safe.directory 'Caminho do Diretorio'
 ```
-
-
-
->Error: remote origin already exists (To update the existing remote repository)
-
-```
-git remote set-url origin 'Directory Path'
-```
-
->Erro: Já existe um repositório remoto (Para atualizar o repositório remoto existente)
-
-```
-git remote set-url origin 'Caminho do Diretorio'
-```
-
