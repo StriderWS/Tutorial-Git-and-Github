@@ -13,15 +13,15 @@ git config --global user.email "Email do Github"
 # commands to push the files to the GitHub repository
 
 ```
-git clone
-git add (File.exe or [--all or .])
+git clone "Repository"
+git add (File.exe or .)
 git commit -m "Your Commit"
 git push
 ```
 
 ```
-git clone
-git add (Arquivo.exe ou [--all ou .])
+git clone "Repositorio"
+git add (Arquivo.exe ou .)
 git commit -m "Seu Commit"
 git push
 ```
